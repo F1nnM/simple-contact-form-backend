@@ -72,5 +72,5 @@ app.post("/", async (req, res) => {
 // start express
 //===========================================
 app.listen(port, "0.0.0.0", () => {
-  console.log(`Contact-from backend listening at http://0.0.0.0:${port}`);
+  console.log(`Contact-form backend listening at http://0.0.0.0:${port}`);
 });
