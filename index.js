@@ -3,6 +3,16 @@ const app = express();
 const port = 4000;
 
 
+//===========================================
+// parse POST bodies for API endpoints
+//===========================================
+
+const cors = require("cors");
+app.use(
+  cors({
+    origin: process.env.CORS_ORIGIN,
+  })
+);
 
 //===========================================
 // parse POST bodies for API endpoints

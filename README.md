@@ -18,6 +18,7 @@ MAIL_PASS            | Password for the user                                    
 MAIL_SENDER          | The email to send the mails from                                    | `'email@example.com'`
 MAIL_RECEIVER        | The email(s) to send the mail to                                    | Either one email address or a comma-separated list of receivers
 MAIL_SUBJECT         | The subject to send the mail with                                   | `'Contact Form'`
+CORS_ORIGIN          | The cors-origin header to send                                      | `'example.com'`
 
 ## Running it
 Either use the Docker image `f1nnm/contact-backend` or run the node application yourself.
